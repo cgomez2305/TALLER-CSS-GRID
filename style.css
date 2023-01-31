@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.marco{
+    margin-top: 50px;
+    display: grid;
+    width: 600px;
+    height: 500px;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    
+}
+
+.caja1{
+    background-image: url(IMAGENES/sea-g726adf998_1280.jpg);
+    background-size: cover;
+    grid-column: 1;
+    grid-row: 1/3;
+    border-radius: 10px;
+}
+.caja2{
+    background-image: url(IMAGENES/snowdrop-gdba422cb0_1280.jpg);
+    background-size: cover;
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 10px;
+}
+.caja3{
+    background-image: url(IMAGENES/trees-g379d5b7a5_1920.jpg);
+    background-size: cover;
+    grid-column: 3/5;
+    grid-row: 1;
+    border-radius: 10px;
+}
+.caja4{
+    background-image: url(IMAGENES/trees-g77d0aff70_1280.jpg);
+    background-size: cover;
+    grid-column: 2;
+    border-radius: 10px;
+    grid-row: 2/4;
+}
+.caja5{
+    background-image: url(IMAGENES/road-g58f6c8737_1920.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.caja6{
+    background-image: url(IMAGENES/new-york-g4b7d368c4_1280.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.caja7{
+    background-image: url(IMAGENES/elephants-g3315d7e3b_1920.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.caja8{
+    background-image: url(IMAGENES/bird-gb440bd82c_1280.jpg);
+    background-size: cover;
+    grid-column: 3/5;
+    border-radius: 10px;
+}
